@@ -327,6 +327,7 @@
 			baseConfigurationReference = CCA1EFD3F82824C5601DB82E /* Pods-BBSimpleBitcodeTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = BBSimpleBitcodeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBSimpleBitcodeTest;
@@ -339,6 +340,7 @@
 			baseConfigurationReference = 10CC19721D408F7631D1F503 /* Pods-BBSimpleBitcodeTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = BBSimpleBitcodeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBSimpleBitcodeTest;
