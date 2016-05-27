@@ -1,0 +1,6 @@
+framework module Pods_BBSimpleBitcodeTest {
+  umbrella header "Pods-BBSimpleBitcodeTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

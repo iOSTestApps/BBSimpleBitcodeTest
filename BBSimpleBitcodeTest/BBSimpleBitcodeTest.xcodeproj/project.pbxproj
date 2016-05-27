@@ -12,9 +12,12 @@
 		8391B8641CF8EC0F002C5C9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8391B8621CF8EC0F002C5C9B /* Main.storyboard */; };
 		8391B8661CF8EC0F002C5C9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8391B8651CF8EC0F002C5C9B /* Assets.xcassets */; };
 		8391B8691CF8EC0F002C5C9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8391B8671CF8EC0F002C5C9B /* LaunchScreen.storyboard */; };
+		9899B47251702BC2B8389CBF /* Pods_BBSimpleBitcodeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57965353C6353E53CF331D53 /* Pods_BBSimpleBitcodeTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10CC19721D408F7631D1F503 /* Pods-BBSimpleBitcodeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSimpleBitcodeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-BBSimpleBitcodeTest/Pods-BBSimpleBitcodeTest.release.xcconfig"; sourceTree = "<group>"; };
+		57965353C6353E53CF331D53 /* Pods_BBSimpleBitcodeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BBSimpleBitcodeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8391B85B1CF8EC0F002C5C9B /* BBSimpleBitcodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBSimpleBitcodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8391B85E1CF8EC0F002C5C9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8391B8601CF8EC0F002C5C9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		8391B8651CF8EC0F002C5C9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8391B8681CF8EC0F002C5C9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8391B86A1CF8EC0F002C5C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA1EFD3F82824C5601DB82E /* Pods-BBSimpleBitcodeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BBSimpleBitcodeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BBSimpleBitcodeTest/Pods-BBSimpleBitcodeTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9899B47251702BC2B8389CBF /* Pods_BBSimpleBitcodeTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				8391B85D1CF8EC0F002C5C9B /* BBSimpleBitcodeTest */,
 				8391B85C1CF8EC0F002C5C9B /* Products */,
+				AA06C4671E53E4FE81B0D3C9 /* Pods */,
+				CD3EBD7B863DC51ECF968EDB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = BBSimpleBitcodeTest;
 			sourceTree = "<group>";
 		};
+		AA06C4671E53E4FE81B0D3C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCA1EFD3F82824C5601DB82E /* Pods-BBSimpleBitcodeTest.debug.xcconfig */,
+				10CC19721D408F7631D1F503 /* Pods-BBSimpleBitcodeTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD3EBD7B863DC51ECF968EDB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57965353C6353E53CF331D53 /* Pods_BBSimpleBitcodeTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8391B86D1CF8EC0F002C5C9B /* Build configuration list for PBXNativeTarget "BBSimpleBitcodeTest" */;
 			buildPhases = (
+				2D585896372BA136BEA2D167 /* 📦 Check Pods Manifest.lock */,
 				8391B8571CF8EC0F002C5C9B /* Sources */,
 				8391B8581CF8EC0F002C5C9B /* Frameworks */,
 				8391B8591CF8EC0F002C5C9B /* Resources */,
+				29616FD6AFF0492CFA276B1C /* 📦 Embed Pods Frameworks */,
+				CF815D656F42FCB501B94C94 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29616FD6AFF0492CFA276B1C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBSimpleBitcodeTest/Pods-BBSimpleBitcodeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D585896372BA136BEA2D167 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF815D656F42FCB501B94C94 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BBSimpleBitcodeTest/Pods-BBSimpleBitcodeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8391B8571CF8EC0F002C5C9B /* Sources */ = {
@@ -249,6 +324,7 @@
 		};
 		8391B86E1CF8EC0F002C5C9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA1EFD3F82824C5601DB82E /* Pods-BBSimpleBitcodeTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BBSimpleBitcodeTest/Info.plist;
@@ -260,6 +336,7 @@
 		};
 		8391B86F1CF8EC0F002C5C9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10CC19721D408F7631D1F503 /* Pods-BBSimpleBitcodeTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BBSimpleBitcodeTest/Info.plist;
@@ -288,6 +365,7 @@
 				8391B86F1CF8EC0F002C5C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
