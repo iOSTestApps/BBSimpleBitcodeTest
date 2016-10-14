@@ -71,6 +71,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8391B86D1CF8EC0F002C5C9B /* Build configuration list for PBXNativeTarget "BBSimpleBitcodeTest" */;
 			buildPhases = (
+				F0DF4A1F1CFCC09200F2E2C2 /* ShellScript */,
 				8391B8571CF8EC0F002C5C9B /* Sources */,
 				8391B8581CF8EC0F002C5C9B /* Frameworks */,
 				8391B8591CF8EC0F002C5C9B /* Resources */,
@@ -96,6 +97,7 @@
 				TargetAttributes = {
 					8391B85A1CF8EC0F002C5C9B = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = L4FET847JL;
 					};
 				};
 			};
@@ -129,6 +131,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0DF4A1F1CFCC09200F2E2C2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8391B8571CF8EC0F002C5C9B /* Sources */ = {
@@ -251,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BBSimpleBitcodeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBSimpleBitcodeTest;
@@ -262,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BBSimpleBitcodeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.buddybuild.BBSimpleBitcodeTest;
@@ -288,6 +308,7 @@
 				8391B86F1CF8EC0F002C5C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
